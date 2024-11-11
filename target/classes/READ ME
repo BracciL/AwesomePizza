@@ -1,0 +1,25 @@
+LINK SWAGGER PER VISUALIZZARE LE API CON TUTTI I COMMENTI ANNESSI
+
+http://localhost:8080/swagger-ui/index.html#/
+
+LINK DATABASE LUCID
+
+https://lucid.app/lucidchart/5d8ae53a-e4b9-408a-863f-00b7592f1dd7/edit?viewport_loc=2747%2C476%2C2303%2C1065%2C0_0&invitationId=inv_6ee7a29f-250f-44db-9e6f-dfb30f133d4a
+
+IL DUMP DEL DATABASE SI TROVA SOTTO QUESTA ROOT
+
+C:\Users\Lorenzo Bracci\Desktop\PROJECTS\AwesomePizza\src\main\resources\SQL\Dumps\Dump20241111.sql
+PRENDERE IL DATABASE SALVATO L'11/11/2024
+
+NELL'APPLICATION PROPERTIES CONFIGURARE LO USER E LA PASSWORD CHE SI HA NEL PROPRIO SQL
+
+spring.application.name=AwesomePizza
+spring.datasource.url=jdbc:mysql://${MYSQL_HOST:127.0.0.1}:3306/svil_awesomepizza         MODIFICARE ANCHE L'URL DEL DATABASE SE NECESSARIO
+spring.datasource.username=root
+spring.datasource.password=root
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+spring.jpa.defer-datasource-initialization=true
+
+
+
+
